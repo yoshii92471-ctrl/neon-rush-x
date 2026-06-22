@@ -1,0 +1,22 @@
+body{
+  margin:0;
+  overflow:hidden;
+  background:#111;
+  color:white;
+  font-family:Arial,sans-serif;
+}
+
+#game{
+  width:100vw;
+  height:100vh;
+  background:linear-gradient(#09112f,#18285e);
+  position:relative;
+}
+
+#player{
+  position:absolute;
+  bottom:100px;
+  left:50%;
+  transform:translateX(-50%);
+  font-size:60px;
+}
