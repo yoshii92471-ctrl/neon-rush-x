@@ -1,4 +1,12 @@
-*{
+.jump{
+    transform:translateX(-50%) translateY(-100px);
+    transition:.3s;
+}
+
+.slide{
+    transform:translateX(-50%) scaleY(.6);
+    transition:.3s;
+}*{
     margin:0;
     padding:0;
     box-sizing:border-box;
